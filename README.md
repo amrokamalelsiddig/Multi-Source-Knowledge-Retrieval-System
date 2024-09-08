@@ -4,7 +4,7 @@ This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)*
 
 ## **Features**
 - Query **Wikipedia** and **Arxiv** for real-time information retrieval.
-- Use **LangSmith search** for LangChain-specific documentation.
+- Use **LangSmith search** for LangChain-specific documentation or you may use any webpage that want to extract the info from . 
 - Integrated with **OpenAI's GPT** for enhanced natural language processing and question-answering.
 
 ## **Disclaimer**
@@ -26,17 +26,17 @@ Please note that using **OpenAI GPT** will incur **minimal charges** based on th
 ### **Steps**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourprojectname.git
-   cd yourprojectname
+   git clone [https://github.com/yourusername/yourprojectname.git](https://github.com/amrokamalelsiddig/Multi-Source-Knowledge-Retrieval-System.git)
+   cd Multi-Source-Knowledge-Retrieval-System
 
 
 2. Set up environment variables:
-
+   
     Rename .env.example to .env.
     Update the .env file with your OpenAI API key.
 
 3. Install the required dependencies:
-
+   ```bash
     pip install -r requirements.txt
 
 
@@ -45,8 +45,9 @@ Please note that using **OpenAI GPT** will incur **minimal charges** based on th
 Once the project is set up, you can run it either through the Python script or the Jupyter notebook.
 Running the Python Script
 
-
+```bash
 python app.py
+```
 
 Running the Jupyter Notebook
 
