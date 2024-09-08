@@ -13,9 +13,6 @@ Please note that using **OpenAI GPT** will incur **minimal charges** based on th
 ## **Table of Contents**
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## **Installation**
 
