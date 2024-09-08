@@ -1,25 +1,55 @@
-# LangChain Multi-Source Q&A Project
+# **LangChain Multi-Source Q&A Project**
 
-This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)** question-answering system using multiple sources like **Wikipedia**, **Arxiv**, and **LangSmith** documentation, utilizing **LangChain** and **OpenAI GPT**.
+This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)** question-answering system using multiple sources like **Wikipedia**, **Arxiv**, and **LangSmith** documentation. It leverages **LangChain** and **OpenAI GPT** to provide context-aware responses to user queries.
 
-## Features
-- Query Wikipedia and Arxiv for real-time information retrieval.
-- Use LangSmith search for LangChain-specific documentation.
-- Integrated with OpenAI's GPT for enhanced natural language processing.
+## **Features**
+- Query **Wikipedia** and **Arxiv** for real-time information retrieval.
+- Use **LangSmith search** for LangChain-specific documentation.
+- Integrated with **OpenAI's GPT** for enhanced natural language processing and question-answering.
 
-## Project Structure
-- **app.py**: The main Python script containing the core functionality.
-- **project_notebook.ipynb**: Interactive notebook for exploring the system step-by-step.
-- **.env.example**: Template for environment variables required to run the project.
+## **Disclaimer**
+Please note that using **OpenAI GPT** will incur **minimal charges** based on the number of API requests made. Ensure that you monitor your OpenAI usage to avoid unexpected costs.
 
-## Setup Instructions
+## **Table of Contents**
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
-update the API key in .env
+## **Installation**
+
+### **Prerequisites**
+- Python 3.9+
+- OpenAI API key
+
+### **Steps**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/yourprojectname.git
+   cd yourprojectname
 
 
-install the required dependencies
-pip install -r requirements.txt
+2. Set up environment variables:
+
+    Rename .env.example to .env.
+    Update the .env file with your OpenAI API key.
+
+3. Install the required dependencies:
+
+    pip install -r requirements.txt
+
+
+### **Usage**
+
+Once the project is set up, you can run it either through the Python script or the Jupyter notebook.
+Running the Python Script
+
+
+python app.py
+
+Running the Jupyter Notebook
+
+jupyter notebook project_notebook.ipynb
+
+After running, you can start querying the system with questions related to LangSmith, Wikipedia, or Arxiv topics. Example query: "Tell me about LangSmith."
